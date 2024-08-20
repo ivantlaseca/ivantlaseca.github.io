@@ -9,17 +9,16 @@ const About = () => {
       <div className="flex-about">
         <div className="about-text">
           <p>
-            As a developer, I have always been passionate about creating elegant and effective solutions to
-            complex problems. I have a strong foundation in software development, with a focus on web
-            technologies such as HTML, CSS, and JavaScript. I enjoy working on both the front-end and
-            back-end of applications, and I am always looking for ways to optimize performance, improve user
-            experience, and ensure the highest level of code quality.
+            As a first-generation American and passionate software engineer, I thrive at the intersection of technology,
+            exploration, and personal development. My journey from a low-income household to financial freedom in my early 20s
+            has fueled my desire to empower others, particularly underprivileged communities, to achieve more in life.
+            With a deep love for travel, soccer, and culinary adventures, I’m always on the lookout for new ways to
+            blend my technical expertise with my interests in personal growth, cultural experiences, and leadership.
           </p>
-          <p>Throughout my career, I have worked on a wide range of projects, from simple static websites to
-            complex enterprise-level applications. I am experienced in working with a variety of development
-            tools and frameworks, including React, Angular, Vue.js, Node.js, and Laravel. I am always eager
-            to learn and explore new technologies, and I am constantly seeking out opportunities to improve
-            my skills and knowledge.</p>
+          <p>Whether it’s coaching others on breaking into the tech industry or developing as leaders, building software for thousands of clients, or taking
+            solo trips to discover new places, I’m driven by a commitment to continuous learning and making a positive
+            impact. My work reflects a dedication to not just advancing in my career, but also helping others navigate
+            their own paths toward success and fulfillment.</p>
         </div>
         <div className="about-img">
           {/* <Image src='/images/about.jpeg' className="profile-img" width={300} height={500}/> */}
