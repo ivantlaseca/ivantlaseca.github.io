@@ -10,30 +10,43 @@ export const projectData = [
     },
     {
         id: 2,
-        title: 'Books Library App',
+        title: 'Pomodoro Timer',
         description:
-            'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.',
-        gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+            'I love using the Pomodoro Technique when completing tasks. This project was implemented using JavaScript, React.js, and Node.js.',
+        gitHubLink: 'https://ivantlaseca.github.io/Pomodoro-Timer/',
     },
     {
         id: 3,
-        title: 'Quotes Generator',
+        title: 'Chatbot',
         description:
-            'Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-        gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
-    },
-    {
-        id: 4,
-        title: 'Password Generator',
-        description:
-            'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-        gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
-    },
-    {
-        id: 5,
-        title: 'Twitter UI Clone',
-        description:
-            'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-        gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
+            'Chatbot to assist IDD individuals with completing day-to-day activities and keeping up to date with their needs. This project was implemented using Python.',
+        gitHubLink: 'https://github.com/ivantlaseca/ChatBot-COHB',
     },
 ];
+
+export const serviceData = [
+    {
+        id: 1,
+        title: "Master Coding Interviews with Confidence: Unlock Insider Techniques",
+        description:
+            "Secure your dream tech job with expert coding interview prep.",
+    },
+    {
+        id: 2,
+        title: "Full-Stack Expertise on Demand: Elevate Your Project with a Seasoned Developer Skilled in Python, JavaScript, React, and More.",
+        description:
+            "Accelerate your project’s success with a seasoned full-stack developer who brings top-tier expertise in Python, JavaScript, React, and more, straight from a leading tech company.",
+    },
+    {
+        id: 3,
+        title: "Speak Spanish with Confidence: Learn Clear, Accent-Free Mexican Spanish from a Native Speaker ",
+        description:
+            "Elevate your Spanish with personalized lessons from a native speaker of clear, accent-free Mexican Spanish.",
+    },
+    // {
+    //     id: 3,
+    //     title: "Master Your Finances: Effortlessly Automate Your Payments, Investments, and Choose the Perfect Credit Card with Expert Guidance!",
+    //     description:
+    //         'Unlock financial freedom with expert guidance tailored to your unique needs. I’ll help you organize your finances, automate payments and investments, and select the perfect credit card—all while simplifying the process so you can focus on what matters most. Let’s make your money work for you, effortlessly.',
+    // },
+]

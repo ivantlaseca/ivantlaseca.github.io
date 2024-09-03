@@ -21,7 +21,7 @@ const About = () => {
             their own paths toward success and fulfillment.</p>
         </div>
         <div className="about-img">
-          {/* <Image src='/images/about.jpeg' className="profile-img" width={300} height={500}/> */}
+          <Image src='/images/me-smiling.JPG' className="profile-img" width={300} height={500} />
         </div>
       </div>
     </div>
