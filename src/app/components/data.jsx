@@ -43,6 +43,12 @@ export const serviceData = [
         description:
             "Elevate your Spanish with personalized lessons from a native speaker of clear, accent-free Mexican Spanish.",
     },
+    {
+        id: 4,
+        title: "Unlock Your Dream Job with a Standout Resume! | Expert Resume Workshop",
+        description:
+            "Transform your career with a professional, eye-catching resume that gets your noticed and lands interviews.",
+    },
     // {
     //     id: 3,
     //     title: "Master Your Finances: Effortlessly Automate Your Payments, Investments, and Choose the Perfect Credit Card with Expert Guidance!",
