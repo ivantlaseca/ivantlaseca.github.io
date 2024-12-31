@@ -10,8 +10,7 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Hey, I'm Ivan 👋</h1>
         <p>
-          I'm a software engineer based in New York City. I specialize in building (and occasionally designing)
-          exceptional websites, applications, and everything in between.
+          I'm a software engineer based in New York City.
         </p>
         <div className="social-icons">
           <a
