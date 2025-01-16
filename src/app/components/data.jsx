@@ -5,7 +5,7 @@ export const projectData = [
         id: 1,
         title: 'Blog',
         description:
-            'A place where I contribute my thoughts, experiences, and expertise to the world.',
+            'A place where I contribute my thoughts, experiences, and opinions to the world. ',
         gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
     },
     {

@@ -6,11 +6,11 @@ const Hero = () => {
 
   return (
     <div className="hero-container">
-      <Image src='/images/conference_pic.jpeg' className="profile-img" width={300} height={300} alt="Ivan" />
+      <Image src='/images/conference_pic.jpeg' className="profile-img" width={300} height={300} x alt="Ivan" />
       <div className="hero-text">
-        <h1>Hey, I'm Ivan</h1>
+        <h1>Hi, I'm Ivan</h1>
         <p>
-          I'm a software engineer based in New York City.
+          Software Engineer in NYC
         </p>
         <div className="social-icons">
           <a
