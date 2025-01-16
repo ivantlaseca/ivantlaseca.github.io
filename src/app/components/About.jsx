@@ -11,9 +11,9 @@ const About = () => {
           <p>
             I'm a guy who likes to eat delicious foods, travel the world, train jiu-jitsu, play soccer, and, occasionally, write code.
             Beyond my surface-level interests, I also enjoy helping underserved communities achieve more in life. I'm passionate about learning
-            about the world around me as well as myself. I spend a lot of time listening to audiobooks because I tend to be on the move and listening
-            to my books is much easier. Some of my favorite books include: The Five Levels of Leadership by John C. Maxwell, The 5AM Club by Robin Sharma, The 80/20 Principle
-            by Richard Koch, and Atomic Habits by idk.
+            about the world around me as well as about myself. For that reason, I spend a lot of time listening to audiobooks that teach me ways of
+            improving upon myself. Some of my favorite listens include: The Five Levels of Leadership by John C. Maxwell, The 5AM Club by Robin Sharma,
+            The 80/20 Principle by Richard Koch, and Atomic Habits by idk.
           </p>
           {/* <p>
             As a first-generation American and passionate software engineer, I thrive at the intersection of technology,
