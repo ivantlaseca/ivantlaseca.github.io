@@ -12,10 +12,11 @@ export const projectData = [
         id: 2,
         title: 'Pomodoro Timer',
         description:
-            'I love using the Pomodoro Technique when completing tasks. This project was implemented using JavaScript, React.js, and Node.js.',
+            "I use this technique when completing my tasks at work. Here's a demo for you to check out. This project was implemented using JavaScript, React.js, and Node.js.",
         gitHubLink: 'https://ivantlaseca.github.io/Pomodoro-Timer/',
     },
     {
+        // Consider replacing this with a current project.
         id: 3,
         title: 'Chatbot',
         description:
@@ -25,12 +26,12 @@ export const projectData = [
 ];
 
 export const serviceData = [
-    {
-        id: 1,
-        title: "Master Coding Interviews with Confidence: Unlock Insider Techniques",
-        description:
-            "Secure your dream tech job with expert coding interview prep.",
-    },
+    // {
+    //     id: 1,
+    //     title: "Master Coding Interviews with Confidence: Unlock Insider Techniques",
+    //     description:
+    //         "Secure your dream tech job with expert coding interview prep.",
+    // },
     {
         id: 2,
         title: "Full-Stack Expertise on Demand: Elevate Your Project with a Seasoned Developer Skilled in Python, JavaScript, React, and More.",
