@@ -305,6 +305,11 @@ hr {
   }
 }
 
+.experience-grid li {
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
 .experience-card {
   border: 1px solid #e6e6e6;
   padding: 20px;

@@ -11,9 +11,9 @@ const Experience = () => {
                     <a className="experience-card" key={experience.id}>
                         <h3>{experience.title}</h3>
                         <ul>
-                            <li>{experience.description.p1}</li>
-                            <li>{experience.description.p2}</li>
-                            <li>{experience.description.p3}</li>
+                            {Object.keys(experience.description).map((key) => (
+                                <li key={key}>{experience.description[key]}</li>
+                            ))}
                         </ul>
                     </a>
                 ))

@@ -5,7 +5,9 @@ export const experienceData = [
         id: 1,
         title: 'Software Engineer | Bloomberg LP',
         description:
-            'My current job',
+        {
+            p1: 'Developing internal applications for the Bloomberg Terminal using Python, JavaScript, and C++.',
+        }
     },
     {
         id: 2,
