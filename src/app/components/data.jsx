@@ -5,12 +5,21 @@ export const experienceData = [
         id: 1,
         title: 'Software Engineer | Bloomberg LP',
         description:
-            'A place where I contribute my thoughts, experiences, and opinions to the world. ',
-        gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+            'My current job',
+    },
+    {
+        id: 2,
+        title: 'Software Engineer Intern | Intuit Mailchimp',
+        description:
+        {
+            p1: 'Revamped the Inbox frontend through UI/UX enhancements.',
+            p2: 'Collaborated with teammates to optimize code quality through pair programming.',
+            p3: 'Facilitated stand-up meetings, team bonding sessions, and introduced new personal growth initiatives within the team.',
+        }
     }
 ];
 
-export const serviceData = [=
+export const serviceData = [
     {
         id: 1,
         title: "Full-Stack Expertise on Demand: Elevate Your Project with a Seasoned Developer Skilled in Python, JavaScript, React, and More.",

@@ -8,9 +8,13 @@ const Experience = () => {
             <h2>Experience</h2>
             <div className="experience-grid">
                 {experienceData && experienceData.map((experience) => (
-                    <a className="experience-card" key={experience.id} href={experience.gitHubLink}>
+                    <a className="experience-card" key={experience.id}>
                         <h3>{experience.title}</h3>
-                        <p>{experience.description}</p>
+                        <ul>
+                            <li>{experience.description.p1}</li>
+                            <li>{experience.description.p2}</li>
+                            <li>{experience.description.p3}</li>
+                        </ul>
                     </a>
                 ))
                 }
