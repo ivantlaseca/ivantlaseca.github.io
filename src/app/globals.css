@@ -299,6 +299,7 @@ hr {
   gap: 2rem;
 }
 
+/* Dynamically renders based on the screen size */
 @media screen and (max-width: 768px) {
   .experience-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -321,12 +322,6 @@ hr {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
-}
-
-.experience-card .experience ul {
-  font-size: 2px;
-  margin-bottom: 10px;
-  color: #b3b3b3;
 }
 
 /* Services */
