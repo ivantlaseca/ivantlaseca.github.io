@@ -287,6 +287,12 @@ hr {
   padding: 2rem 0;
 }
 
+.experience-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 .experience-container h2 {
   font-size: 2rem;
   font-weight: 600;

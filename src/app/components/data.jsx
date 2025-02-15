@@ -18,6 +18,16 @@ export const experienceData = [
             p2: 'Collaborated with teammates to optimize code quality through pair programming.',
             p3: 'Facilitated stand-up meetings, team bonding sessions, and introduced new personal growth initiatives within the team.',
         }
+    },
+    {
+        id: 3,
+        title: 'Leadership Coach Fellowship | Hispanic Organization Promotion Education (HoPe)',
+        description:
+        {
+            p1: 'Mentored 50+ high school students in leadership development and college readiness.',
+            p2: 'Collaborated with directors to develop and implement leadership development activities.',
+            p3: 'Facilitated monthly leadership teachings for students.',
+        }
     }
 ];
 
