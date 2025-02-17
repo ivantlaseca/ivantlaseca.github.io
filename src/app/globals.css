@@ -89,13 +89,6 @@ hr {
   color: #ffffff;
 }
 
-.footer-container .social_icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0 1rem;
-}
-
 /* Hero */
 
 .hero-container {
@@ -108,11 +101,12 @@ hr {
 }
 
 .hero-container .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
-  margin: 0 auto;
-  object-fit: cover;
+  background-image: url('/images/conference_pic.jpeg');
+  background-size: 200%;
+  background-position: top;
 }
 
 .hero-container .hero-text {
@@ -137,23 +131,6 @@ hr {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 1rem;
-}
-
-.hero-container .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-}
-
-.hero-container .social-icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.hero-container .social-icons a:hover {
-  color: #DADADB;
 }
 
 /* About */
@@ -196,11 +173,6 @@ hr {
   object-fit: cover;
   transition: all 0.5s ease-in-out;
   cursor: cell;
-}
-
-.about-container .flex-about .about-img .profile-img:hover {
-  filter: grayscale(0%);
-  transform: scale(1.02);
 }
 
 @media screen and (max-width: 768px) {
@@ -254,16 +226,8 @@ hr {
   cursor: context-menu;
 }
 
-.skills-container .grid-skills i {
-  font-size: 1.5rem;
-}
-
-.skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
-}
-
-.skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
+.skills-container .grid-skills .cpp:hover {
+  background-color: #007acc;
 }
 
 .skills-container .grid-skills .js:hover {
@@ -274,12 +238,12 @@ hr {
   background-color: #61DAFB;
 }
 
-.skills-container .grid-skills .node:hover {
-  background-color: #339933;
-}
-
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
+}
+
+.skills-container .grid-skills .pspeaking:hover {
+  background-color: #3cb372;
 }
 
 /* Experience */
