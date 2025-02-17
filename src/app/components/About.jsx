@@ -9,11 +9,8 @@ const About = () => {
       <div className="flex-about">
         <div className="about-text">
           <p>
-            I'm a guy who likes to eat delicious foods, travel the world, train jiu-jitsu, play soccer, and, write code--I suppose.
-            Beyond my surface-level interests, I also enjoy helping underserved communities achieve more in life. I enjoy learning
-            about the world around me as well as about myself. I spend a lot of my time focusing on improving myself either through listening to audiobooks,
-            watching self-help YouTube videos, or just doing something out of my comfort zone. Some of my favorite audiobooks include: The Five Levels of Leadership by John C. Maxwell,
-            The 5AM Club by Robin Sharma, The 80/20 Principle by Richard Koch, and Atomic Habits by James Clear.
+            I enjoy eating good food, traveling, training in jiu-jitsu, playing soccer, and coding. I enjoy improving on myself—whether it’s through audiobooks, self-help videos, or trying something new.
+            I also care about helping people who don’t have the same opportunities. Some of my go-to books are The Five Levels of Leadership, The 5AM Club, The 80/20 Principle, and Atomic Habits.
           </p>
         </div>
         <div className="about-img">
