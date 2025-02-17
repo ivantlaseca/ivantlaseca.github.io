@@ -47,6 +47,6 @@ export const serviceData = [
     {
         id: 3,
         title: "College Success Coaching",
-        description: "Tools, techniques, and strategies you can use to succeed in college."
+        description: "Tips, techniques, and strategies you can use to succeed in college."
     }
 ]
