@@ -81,12 +81,12 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+  background-color: #000000;
 }
 
 .footer-container p {
   font-size: 0.8rem;
-  color: #9B9C9D;
+  color: #ffffff;
 }
 
 .footer-container .social_icons {
@@ -94,16 +94,6 @@ hr {
   justify-content: space-between;
   align-items: center;
   gap: 0 1rem;
-}
-
-.footer-container .social_icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.footer-container .social_icons a:hover {
-  color: #DADADB;
 }
 
 /* Hero */
@@ -292,71 +282,52 @@ hr {
   background-color: #3776AB;
 }
 
-/* Projects */
-.projects-container {
+/* Experience */
+.experience-container {
   padding: 2rem 0;
 }
 
-.projects-container h2 {
+.experience-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.experience-container h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.projects-grid {
+.experience-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
+/* Dynamically renders based on the screen size */
 @media screen and (max-width: 768px) {
-  .projects-grid {
+  .experience-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-.project-card {
+.experience-grid li {
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
+.experience-card {
   border: 1px solid #e6e6e6;
   padding: 20px;
   border-radius: 5px;
 }
 
-.project-card .project-header {
+.experience-card .experience-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
-}
-
-.project-card .folder-icon {
-  font-size: 35px;
-  color: #FFCC17;
-}
-
-.project-header .small-icons {
-  display: flex;
-  gap: 0 5px;
-}
-
-.project-card .small-icons a {
-  margin-right: 5px;
-  cursor: pointer;
-  transition: all .5s ease;
-}
-
-.project-card .small-icons a:hover {
-  color: #FFCC17;
-}
-
-.project-card .project h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.project-card .project p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #b3b3b3;
 }
 
 /* Services */
@@ -368,6 +339,12 @@ hr {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
 }
 
 .services-grid {
