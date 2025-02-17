@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-text">
           <p>
             I enjoy eating good food, traveling, training in jiu-jitsu, playing soccer, and coding. I enjoy improving on myself—whether it’s through audiobooks, self-help videos, or trying something new.
-            I also care about helping people who don’t have the same opportunities. Some of my go-to books are The Five Levels of Leadership, The 5AM Club, The 80/20 Principle, and Atomic Habits.
+            I also care about helping historically underserved communities achieve more in life. Some of my go-to books are The Five Levels of Leadership, The 5AM Club, The 80/20 Principle, and Atomic Habits.
           </p>
         </div>
         <div className="about-img">
