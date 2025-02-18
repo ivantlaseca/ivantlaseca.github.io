@@ -34,19 +34,19 @@ export const experienceData = [
 export const serviceData = [
     {
         id: 1,
-        title: "Website Redesign",
+        title: "Website Revamp",
         description:
-            "Need to make some tweaks to an existing website?",
+            "Need to make some tweaks to an existing website? Need a brand new website for your business? Let's discuss solutions.",
     },
     {
         id: 2,
         title: "Computer Science Tutoring",
         description:
-            "Data Structures and Algorithms or coding interview prep.",
+            "Data Structures, Algorithms, or coding tnterview prep. Let me know how I can help.",
     },
     {
         id: 3,
         title: "College Success Coaching",
-        description: "Tips, techniques, and strategies you can use to succeed in college."
+        description: "Tips, techniques, and strategies you can use to succeed in college. I'm here to help."
     }
 ]
