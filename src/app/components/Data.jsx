@@ -6,7 +6,7 @@ export const experienceData = [
         title: 'Software Engineer | Bloomberg LP',
         description:
         {
-            p1: 'Developing internal applications for the Bloomberg Terminal using Python, JavaScript, and C++.',
+            p1: 'Developing internal applications for the Bloomberg Terminal using Python, JavaScript, C++, and more.',
         }
     },
     {
