@@ -4,29 +4,34 @@ export const experienceData = [
     {
         id: 1,
         title: 'Software Engineer | Bloomberg LP',
+        subtitle: '2023 - Present',
         description:
         {
-            p1: 'Developing internal applications for the Bloomberg Terminal using Python, JavaScript, C++, and more.',
+            p1: 'Optimizing internal tools for 27,000+ users, focusing on efficiency and security.',
+            p2: 'Supporting system upgrades, cloud migrations, sensitive data remediations, and triage efforts.',
+            p3: 'Presenting business-centric and technical work accomplished to stakeholders bi-weekly.',
         }
     },
     {
         id: 2,
         title: 'Software Engineer Intern | Intuit Mailchimp',
+        subtitle: '2022 - 2023',
         description:
         {
-            p1: 'Revamped the Inbox frontend through UI/UX enhancements.',
+            p1: 'Revamped the Inbox UI/UX, leveraging React.js and Node.js to optimize rendering.',
             p2: 'Collaborated with teammates to optimize code quality through pair programming.',
-            p3: 'Facilitated stand-up meetings, team bonding sessions, and introduced new personal growth initiatives within the team.',
+            p3: 'Led stand-ups, team bonding, and knowledge-sharing initiatives.',
         }
     },
     {
         id: 3,
         title: 'Leadership Coach Fellowship | Hispanic Organization Promotion Education (HoPe)',
+        subtitle: '2019 - 2023',
         description:
         {
-            p1: 'Mentored 50+ high school students in leadership development and college readiness.',
-            p2: 'Collaborated with directors to develop and implement leadership development activities.',
-            p3: 'Facilitated monthly leadership teachings for students.',
+            p1: 'Managed and structured data for 78+ chapters, improving operational efficiency.',
+            p2: 'Automated reporting workflows, providing data-driven insights on 4,000+ members.',
+            p3: 'Onboarded 250+ chapter presidents with fundamentals for using their technical tools.',
         }
     }
 ];
@@ -42,7 +47,7 @@ export const serviceData = [
         id: 2,
         title: "Computer Science Tutoring",
         description:
-            "Data Structures, Algorithms, or coding tnterview prep. Let me know how I can help.",
+            "Data Structures, Algorithms, or coding interview prep. Let me know how I can help.",
     },
     {
         id: 3,
