@@ -3,8 +3,9 @@
 export const experienceData = [
     {
         id: 1,
-        title: 'Software Engineer | Bloomberg LP',
-        subtitle: '2023 - Present',
+        title: 'Software Engineer',
+        employer: 'Bloomberg LP',
+        tenure: 'Sept. 2023 - Present',
         description:
         {
             p1: 'Optimizing internal tools for 27,000+ users, focusing on efficiency and security.',
@@ -14,8 +15,9 @@ export const experienceData = [
     },
     {
         id: 2,
-        title: 'Software Engineer Intern | Intuit Mailchimp',
-        subtitle: '2022 - 2023',
+        title: 'Software Engineer Intern',
+        employer: 'Intuit Mailchimp',
+        tenure: 'May 2022 - May 2023',
         description:
         {
             p1: 'Revamped the Inbox UI/UX, leveraging React.js and Node.js to optimize rendering.',
@@ -25,8 +27,9 @@ export const experienceData = [
     },
     {
         id: 3,
-        title: 'Leadership Coach Fellowship | Hispanic Organization Promotion Education (HoPe)',
-        subtitle: '2019 - 2023',
+        title: 'Leadership Coach Fellowship',
+        employer: 'Hispanic Organization Promotion Education (HoPe)',
+        tenure: 'June 2019 - June 2023',
         description:
         {
             p1: 'Managed and structured data for 78+ chapters, improving operational efficiency.',
