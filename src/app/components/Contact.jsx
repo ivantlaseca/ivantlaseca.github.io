@@ -9,10 +9,10 @@ const Contact = () => {
     return (
         <section className="contact-container" id="contact">
             <span className="section-label">Contact</span>
-            <h2>Let's talk</h2>
+            <h2>Let&apos;s talk</h2>
             <p>
-                If you're working on something interesting or want to discuss a role, reach out directly.
-                I'm open to conversations about full-stack, forward-deployed, solutions, and customer engineering positions.
+                If you&apos;re working on something interesting or want to discuss a role, reach out directly.
+                I&apos;m open to conversations about full-stack, forward-deployed, solutions, and customer engineering positions.
             </p>
             <div className="contact-links">
                 {/* FILL HERE: Replace with preferred email */}

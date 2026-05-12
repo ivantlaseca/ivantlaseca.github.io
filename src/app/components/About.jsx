@@ -14,17 +14,17 @@ const About = () => {
         <div className="about-text">
           <h2>Building practical systems. Making them understandable.</h2>
           <p>
-            I'm a software engineer who built and maintained production systems at Bloomberg LP —
+            I&apos;m a software engineer who built and maintained production systems at Bloomberg LP —
             full-stack development, infrastructure migrations, and internal tooling used by 27,000+
             employees globally.
           </p>
           <p>
             I worked across teams to support infrastructure migrations and improve engineering
-            workflows. Outside of the technical work, I've mentored students and coached non-technical
+            workflows. Outside of the technical work, I&apos;ve mentored students and coached non-technical
             leaders — which shapes how I communicate and collaborate.
           </p>
           <p>
-            I'm looking for roles where I can build things that work, contribute across teams, and
+            I&apos;m looking for roles where I can build things that work, contribute across teams, and
             engage directly with the problems my work is solving. Particularly interested in full-stack,
             forward-deployed, solutions, and customer engineering positions.
           </p>

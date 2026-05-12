@@ -2,13 +2,13 @@
 // CHECKLIST:
 // - Verify the resume file is at /public/Ivan Tlaseca Resume.pdf (note the space — matches Navbar link).
 // - The CTA points to #contact — confirm your Contact section has id="contact".
-// - "Available for new roles" tag is accurate — remove once you've accepted a position.
+// - Hero tag is intentionally not an employment-status message.
 
 const Hero = () => {
   return (
     <section className="hero-container" id="home">
       <div className="hero-tag">
-        <span>Available for new roles — 2026</span>
+        <span>Software engineer with experience building production systems at Bloomberg</span>
       </div>
       <div className="hero-text">
         <h1 className="hero-name">Ivan Tlaseca</h1>
