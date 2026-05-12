@@ -15,7 +15,7 @@ export const experienceData = [
             p3: "Improved SSL certificate renewal efficiency through documentation improvements and AI-assisted troubleshooting, enabling engineers to complete renewals up to 50% faster.",
             p4: "Contributed to infrastructure migrations including Oracle to Postgres, IAM modernization, and Exchange Online, implementing API changes across backend services.",
             p5: "Built an MCP server integrated with Copilot to retrieve event data across 5 internal APIs, delivering a working prototype with a new team on an unfamiliar codebase.",
-            p6: "Presented technical and business-centric work to stakeholders bi-weekly on a team of 16+ engineers.",
+            p6: "Worked across teams to support infrastructure migrations and improve engineering workflows on a team of 16+ engineers.",
         },
     },
     {
@@ -72,23 +72,23 @@ export const highlightsData = [
 export const howIWorkData = [
     {
         id: 1,
-        title: "Read the system before changing it.",
-        body: "I spend time understanding how things fit together before I write a line. This is how you avoid breaking something upstream.",
+        title: "Understand the problem before touching the code.",
+        body: "I read the system, trace the data, and ask the right questions before proposing a solution. Skipping this step is how you fix the wrong thing.",
     },
     {
         id: 2,
-        title: "Write for the person reading it next.",
-        body: "Documentation, commit messages, READMEs — I treat them as part of the work, not an afterthought.",
+        title: "Break ambiguity into smaller, answerable questions.",
+        body: "When a problem is unclear, I don't wait for it to resolve itself. I identify what I do and don't know, then move forward on what I can.",
     },
     {
         id: 3,
-        title: "Present the work.",
-        body: "I give bi-weekly stakeholder updates and structure my communication to be clear to both technical and non-technical audiences.",
+        title: "Ship something that works, then make it better.",
+        body: "I favor pragmatic solutions over perfect ones — get it working, get it reviewed, improve it with more information. Done beats theorized.",
     },
     {
         id: 4,
-        title: "Work at the seam.",
-        body: "I'm comfortable in the space between engineering and the people it serves — whether that's a user, a teammate, or a business stakeholder.",
+        title: "Communicate clearly across the stack.",
+        body: "I write for the person reading it next — whether that's documentation, a commit message, or an explanation to someone non-technical. Clarity is part of the job.",
     },
 ];
 

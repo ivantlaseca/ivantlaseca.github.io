@@ -2,7 +2,7 @@
 // CHECKLIST:
 // - Import paths assume components are in src/app/components/
 // - Services is commented out intentionally — uncomment when ready.
-// - Verify Navbar and Footer components exist if you have them; they are not imported here.
+// - Navbar is rendered in layout.tsx, not here. Do not add it here again.
 
 import Hero from "@/app/components/Hero";
 import About from "@/app/components/About";

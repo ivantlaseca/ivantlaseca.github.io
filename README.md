@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ivan Tlaseca — Portfolio
 
-## Getting Started
+Personal portfolio site for Ivan Tlaseca, software engineer. Built to support a 2026 job search targeting full-stack, forward-deployed, solutions, and customer engineering roles.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript / JSX
+- **Styling:** CSS (globals.css) with CSS custom properties
+- **Fonts:** Syne, DM Sans, IBM Plex Mono (via Google Fonts)
+- **Images:** next/image
+
+## Project Structure
+
+```
+src/
+└── app/
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Hero.jsx
+    │   ├── About.jsx
+    │   ├── Experience.jsx
+    │   ├── Highlights.jsx
+    │   ├── HowIWork.jsx
+    │   ├── Skills.jsx
+    │   ├── Contact.jsx
+    │   └── Data.jsx        ← all site content lives here
+    ├── globals.css
+    ├── layout.tsx
+    └── page.tsx
+public/
+├── images/
+│   └── me-smiling.JPG
+└── Ivan Tlaseca Resume.pdf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Install dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Start the development server
+npm run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Building for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Content Updates
 
-## Deploy on Vercel
+All site copy — experience bullets, highlights, how-I-work principles, and skills — lives in `src/app/components/Data.jsx`. Edit that file to update content without touching component structure.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Placeholders
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Search for `FILL HERE` in any component file to find spots that need your manual input (GitHub URL, resume file path confirmation, etc.).

@@ -1,8 +1,8 @@
 // components/Hero.jsx
 // CHECKLIST:
-// - Replace [YOUR ROLE TITLE] if you want something more specific than the current copy.
-// - The CTA link points to #contact — verify your Contact section has id="contact".
-// - The image path '/images/conference_pic.jpeg' — confirm this file exists in your /public/images/ folder.
+// - Verify the resume file is at /public/Ivan Tlaseca Resume.pdf (note the space — matches Navbar link).
+// - The CTA points to #contact — confirm your Contact section has id="contact".
+// - "Available for new roles" tag is accurate — remove once you've accepted a position.
 
 const Hero = () => {
   return (
@@ -13,16 +13,15 @@ const Hero = () => {
       <div className="hero-text">
         <h1 className="hero-name">Ivan Tlaseca</h1>
         <p className="hero-subtitle">
-          Software Engineer — full-stack systems, internal tooling, and cross-team technical work.
+          Software engineer building full-stack systems and developer tooling.
         </p>
         <p className="hero-subtext">
-          3 years at Bloomberg LP. Bilingual. Open to full-stack, forward-deployed, and solutions engineering roles.
+          Built production systems at Bloomberg LP. Open to full-stack, forward-deployed, solutions, and customer engineering roles. Bilingual in English and Spanish.
         </p>
       </div>
       <div className="hero-cta-group">
         <a href="#contact" className="cta-btn">Get in touch</a>
-        {/* FILL HERE: Replace href with your actual resume PDF path or link */}
-        <a href="/Ivan_Tlaseca_Resume.pdf" className="cta-btn-outline" target="_blank" rel="noopener noreferrer">
+        <a href="/Ivan Tlaseca Resume.pdf" className="cta-btn-outline" target="_blank" rel="noopener noreferrer">
           View résumé
         </a>
       </div>
