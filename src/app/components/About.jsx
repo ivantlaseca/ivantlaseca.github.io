@@ -1,24 +1,59 @@
 // components/About.jsx
+// CHECKLIST:
+// - Image path '/images/me-smiling.JPG' — confirm this exists in /public/images/ (case-sensitive on Linux).
+// - LinkedIn URL is hardcoded — update if it changes.
+// - Body copy is honest and resume-supported. Review before publishing.
 
 import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="about-container">
-      <h2>About Me</h2>
+    <section className="about-container" id="about">
+      <span className="section-label">About</span>
       <div className="flex-about">
         <div className="about-text">
+          <h2>Building practical systems. Making them understandable.</h2>
           <p>
-            I enjoy eating good food, traveling, training in jiu-jitsu, playing soccer, and coding. I like improving on myself—whether it’s through audiobooks, self-help videos, or trying something new.
-            I also care about helping historically underserved communities achieve more in life. Some of my go-to books are The Five Levels of Leadership, The 5AM Club, The 80/20 Principle, and Atomic Habits.
+            I&apos;m a software engineer who built and maintained production systems at Bloomberg LP —
+            full-stack development, infrastructure migrations, and internal tooling used by 27,000+
+            employees globally.
           </p>
+          <p>
+            I worked across teams to support infrastructure migrations and improve engineering
+            workflows. Outside of the technical work, I&apos;ve mentored students and coached non-technical
+            leaders — which shapes how I communicate and collaborate.
+          </p>
+          <p>
+            I&apos;m looking for roles where I can build things that work, contribute across teams, and
+            engage directly with the problems my work is solving. Particularly interested in full-stack,
+            forward-deployed, solutions, and customer engineering positions.
+          </p>
+          <div className="about-links">
+            <a
+              href="https://www.linkedin.com/in/ivantlaseca"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-link"
+            >
+              LinkedIn ↗
+            </a>
+            {/* FILL HERE: Uncomment and add GitHub handle if desired */}
+            {/* <a href="https://github.com/[YOUR_HANDLE]" target="_blank" rel="noopener noreferrer" className="about-link">GitHub ↗</a> */}
+          </div>
         </div>
         <div className="about-img">
-          <Image src='/images/me-smiling.JPG' className="profile-img" width={300} height={500} />
+          <Image
+            src="/images/me-smiling.JPG"
+            className="profile-img"
+            width={400}
+            height={520}
+            alt="Ivan Tlaseca"
+            priority
+          />
         </div>
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
 export default About;
